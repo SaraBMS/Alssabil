@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السبيل</title>
+    <link rel="stylesheet" href="css/alssabil.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300&display=swap" >
+</head>
+<body>
+  <!-- Start Landing Page  -->
+  <div class="landing d-flex justify-content-center align-items-center pb-5 pt-5  " id="landing">
+        <div class="text-center container  mt-5 pt-5 pb-5">
+                  <img src="images/logo2.png" alt="" class="mb-4 mt-5 img-fluid">
+    <h3 class="text-black fw-normal pb-3">تسجيل دخول</h3>
+    <div class="row">
+    <div class="col-lg-12 pb-5">
+        <input class="form-control-lg mb-2" id="user" type="text" placeholder=" اسم المستخدم" aria-label=".form-control-lg example">
+        <div class="col-lg-12 ">
+        <input class="form-control-lg" id="password" type="password" placeholder="كلمة المرور" aria-label="default input example">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="border"></div>
+</div>
+  <!-- End Landing Page  -->
+  <!-- Start Options Page -->
+  <div class="options pt-4 pb-4" id="options">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-brand d-flex align-items-center "  >
+        <img src="images/logo3.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+        <div class="logo-text p-3 ">
+        <h3>جمعية السبيل الخيرية</h3>
+        <h6>المحبة هي السبيل</h6>
+      </div>
+      </div>
+      <button type="button" id="backO">
+        <i class="fa-solid fa-circle-left back-btn mb-2"></i>
+        <h5 class="fs-6  fw-light ">الخلف</h5>
+      </button>
+    </div>
+  </nav>
+  <div class="list-option text-center">
+    <div class="container">
+  <ul class="list-unstyled d-flex justify-content-center mt-3 mb-3 align-items-center p-2">
+    
+<li> <button id="op1"class="mb-3" ><img src="images/form.png" class="img-fluid w-75"></button>
+  <h6>أيتام</h6>
+</li>
+<li> <button id="op2" class="mb-3"><img src="images/form.png" class="img-fluid w-75"></button>
+  <h6>شهداءوجرحى</h6>
+</li>
+<li> <button id="op3"class="mb-3"><img src="images/form.png" class="img-fluid w-75"></button>
+  <h6>فقر</h6>
+</li>
+<li> <button id="op4"class="mb-3" ><img src="images/form.png" class="img-fluid w-75"></button>
+  <h6>مرض</h6>
+</li>
+  </ul>
+</div>
+</div>
+<div class="border"></div>
+</div>
+  <!-- End Options Page -->
+  <!-- Start User Inform -->
+  <div class="user-inform pt-4 pb-4" id="userInform">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-brand d-flex align-items-center "  >
+          <img src="images/logo3.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+          <div class="logo-text p-3 ">
+          <h3>جمعية السبيل الخيرية</h3>
+          <h6>المحبة هي السبيل</h6>
+        </div>
+        </div>
+        <button type="button" id="backU">
+          <i class="fa-solid fa-circle-left back-btn mb-2"></i>
+          <h5 class="fs-6  fw-light ">الخلف</h5>
+        </button>
+        </div>
+    </nav>
+    <div class="container">
+    <div class="form ">
+    <!-- <form  id="regForm" action="" onsubmit="return generateReport();"> -->
+    <form  id="regForm" action="">
+      <div class="tab row g-3 pb-5 ">
+     <h6>العائلة:</h6>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="husband" placeholder="اسم الزوج" >
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="father" placeholder="الأب">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="family" placeholder="العائلة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="birthday" placeholder="تاريخ الولادة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control " id="nationalNum" placeholder="الرقم الوطني">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="job" placeholder="العمل">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="wife" placeholder="اسم الزوجة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="father-w" placeholder="الأب">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="family-w" placeholder="العائلة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="birthday-w" placeholder="تاريخ الولادة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control " id="nationalNum-w" placeholder="الرقم الوطني">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="job-w" placeholder="العمل">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="first-child" placeholder="الولد الأول">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="birthday-child" placeholder="تاريخ الولادة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control " id="study-work" placeholder=" العمل/الدراسة">
+      </div>
+      <div class="col-sm-11 col-md-5 col-lg-4">
+        <input type="text" class="form-control" id="notes" placeholder="ملاحظات">
+      </div>
+      <div class="col-sm-1 col-md-1 col-lg-1 text-center ">
+        <i class="fa-solid fa-plus plus" id="plus"></i>
+      </div>
+      <h6 class="pt-3">العنوان, الإقامةوالسكن:</h6>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="state" placeholder="المحافظة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="city" placeholder="المدينة">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control " id="village" placeholder="القرية">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <input type="text" class="form-control" id="specificPoint" placeholder="نقطة علام">
+      </div>
+      <div class="form-check living-check">
+        <input class="form-check-input mt-2 text-center" type="radio" name="house" id="own" value="ملك" >
+        <label class="form-check-label form-control radio-check text-center" for="own">
+        ملك
+        </label>
+      </div>
+      <div class="form-check living-check">
+        <input class="form-check-input mt-2 text-center " type="radio" name="house" id="rent" value="إيجار" >
+        <label class="form-check-label form-control radio-check text-center" for="rent">
+         إيجار
+        </label>
+      
+      </div>
+      <div class="form-check living-check">
+        <input class="form-check-input mt-2 text-center" type="radio" name="house" id="temporary" value="مؤقت" >
+        <label class="form-check-label form-control radio-check text-center" for="temporary">
+         مؤقت
+        </label>
+      </div>
+      <div class="col-md-12 col-lg-8">
+        <input type="text" class="form-control" id="livingStatus" placeholder=" وصف مختصر عن حالة السكن">
+      </div>
+      <h6 class="pt-3">معلومات التواصل:</h6>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="basicMobile" placeholder="موبايل أساسي">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="alternativeMobile" placeholder="موبايل بديل">
+      </div>
+      <div class="col-md-6 col-lg-2">
+        <input type="text" class="form-control" id="telephone" placeholder="هاتف ثابت">
+      </div>
+      <div class="col-sm-1 col-md-1 col-lg-1 text-center ">
+        <i class="fa-solid fa-plus plus" id="plus"></i>
+      </div>
+      <h6 class="pt-3"> الحالة الصحية:</h6>
+      <div class="col-md-6 col-lg-6 ">
+        <input type="text" class=" form-control form-control-lg p-4 mb-3" id="familyHealth" placeholder="الحالة الصحية لجميع أفراد العائلة">
+      </div>
+      <div class="col-md-6 col-lg-6 ">
+        <input type="text" class=" form-control form-control-lg p-4" id="additionalInfo" placeholder=" إضافة معلومات غير موجودة سابقا">
+        <h6 class="info-head">معلومات إضافية:</h6>
+      </div> 
+    </div>
+    <div class="tab row g-3 pb-5">
+      <h6 class="pt-3">البيانات والإدخال:</h6>
+      <div class="col-md-6 col-lg-5">
+        <input type="text" class="form-control" id="statusSource" placeholder=" مصدر الحالة">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <input type="text" class="form-control" id="regDate" placeholder="  تاريخ التسجيل">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <input type="text" class="form-control" id="applicant" placeholder="  مقدم الطلب">
+      </div>
+      <div class="col-md-6 col-lg-5">
+        <input type="text" class="form-control" id="dataEntrier" placeholder="مدخل البيانات">
+      </div>
+      <div class="col-md-12 col-lg-10">
+        <input type="text" class=" form-control form-control-lg p-4 mb-3" id="applicantEvaluation" placeholder="تقييم مقدم الطلب">
+      </div>
+      <h6 class="pt-3"> تقييم الدراسات:</h6>
+      <div class="col-md-12 col-lg-10">
+        <input type="text" class=" form-control form-control-lg p-4 mb-3" id="evaluationText" placeholder="اكتب النص هنا..">
+      </div>
+      <h6 class="pt-3"> ملاحظات الإدارة:</h6>
+      <div class="col-md-12 col-lg-10">
+        <input type="text" class=" form-control form-control-lg p-4 mb-3" id="managementNotes" placeholder="اكتب النص هنا..">
+      </div>
+      <h6 class="pt-3">إضافة فلتر جديد:</h6>
+      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check checkbox-f" id="btncheck1" autocomplete="off">
+        <label class="form-control label-filter " id="lab1" for="btncheck1"> أيتام
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg close-button" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+        </label>
+      
+        <input type="checkbox" class="btn-check checkbox-f" id="btncheck2" autocomplete="off">
+        <label class="form-control label-filter" id="lab2" for="btncheck2">طلاب 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg close-button" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+        </label>
+      
+        <input type="checkbox" class="btn-check checkbox-f" id="btncheck3" autocomplete="off">
+        <label class="form-control label-filter" id="lab3" for="btncheck3"> جديد 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg close-button" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+          </svg>
+        </label>
+      </div>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn  me-md-2" id="prevBtn" onclick="nextPrev(-1)" type="button">السابق</button>
+      <button class="btn " id="nextBtn" onclick="nextPrev(1)" type="button">التالي</button>
+    </div>
+    <div class="bullets">
+      <span class="step"></span>
+      <span class="step"></span>
+    </div>
+    </form>
+  </div>
+</div>
+    <div class="border"></div>
+  </div>
+    <!-- End User Inform -->
+    <!-- Start Form Report -->
+    <div class="form-report pt-4 pb-5" id="formReport">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-brand d-flex align-items-center "  >
+            <img src="images/logo3.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+            <div class="logo-text p-3 ">
+            <h3>جمعية السبيل الخيرية</h3>
+            <h6>المحبة هي السبيل</h6>
+          </div>
+          </div>
+          <button type="button" id="backF">
+            <i class="fa-solid fa-circle-left back-btn mb-2"></i>
+            <h5 class="fs-6  fw-light ">الخلف</h5>
+          </button>
+          </div>
+      </nav>
+      <div class="container">
+           
+   <button id="Generate" onclick=" generateReport()" class="mt-3 mb-3">Generate</button>
+        <div id="report" class="row">
+    </div>
+    <div class="d-grid gap-5 d-md-flex justify-content-center buttons-report ">
+      <button class="btn text-center me-md-2" id="modify" onclick="" type="button">تعديل</button>
+      <button class="btn text-center" id="archive" onclick="" type="button">أرشفة</button>
+      <button class="btn text-center" id="assistRecord" onclick="" type="button">سجل المساعدة</button>
+    </div>
+  </div>
+      <div class="border"></div>
+    </div>
+    <!-- End Form Report -->
+    <!-- Start Search Page -->
+    <div class="search pt-4 pb-4" id="searchForm">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-brand d-flex align-items-center "  >
+            <img src="images/logo3.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+            <div class="logo-text p-3 ">
+            <h3>جمعية السبيل الخيرية</h3>
+            <h6>المحبة هي السبيل</h6>
+          </div>
+          </div>
+          <button type="button" id="backS">
+            <i class="fa-solid fa-circle-left back-btn mb-2"></i>
+            <h5 class="fs-6  fw-light ">الخلف</h5>
+          </button>
+          </div>
+      </nav>
+      <div class="container">
+        <div class="search-container">
+        <form action="" id="formSearch" class="d-flex justify-content-center flex-column" >
+          <div class="d-grid gap-2 d-md-flex justify-content-center align-items-center ">
+            <h6 class="search-head">البحث بإسم الزوج :</h6>
+              <input type="text" class="form-control search-input" id="husbandFname" placeholder=" الأول">
+              <input type="text" class="form-control search-input" id="husbandMname" placeholder=" الأوسط">
+              <input type="text" class="form-control search-input" id="husbandLname" placeholder=" الكنية">
+          </div>
+              <div class="d-grid gap-2 d-md-flex justify-content-center pt-2 align-items-center">
+            <h6 class="search-head">البحث بإسم الزوجة :</h6>
+              <input type="text" class="form-control search-input" id="wifeFname" placeholder=" الأول">
+              <input type="text" class="form-control search-input" id="wifeMname" placeholder=" الأوسط">
+              <input type="text" class="form-control search-input" id="wifeLname" placeholder=" الكنية">
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-center pt-2 align-items-center">
+            <h6 class="search-head child-head">البحث بالأولاد : </h6>
+              <input type="text" class="form-control search-input child-name" id="childrenName" placeholder=" اسم الابن">
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-center pt-2 align-items-center">
+            <h6 class="search-head child-head" id="childHead1">البحث بالرقم الوطني: </h6>
+              <input type="text" class="form-control search-input child-name " id="nationalNumSearch" placeholder=" الرقم الوطني">
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-center pt-2 align-items-center">
+            <h6 class="search-head child-head" id="childHead2">البحث برقم الهاتف : </h6>
+              <input type="text" class="form-control search-input child-name " id="phoneNum" placeholder=" رقم الهاتف">
+          </div>
+          <div class="d-grid gap-5 d-md-flex justify-content-center buttons-report ">
+            <button class="btn text-center me-md-2" id="searchButton" onclick="" type="button">بحث</button>
+          </div>
+        </form>
+      </div>
+    </div>
+      <div class="border"></div>
+      </div>
+    <!-- End Search Page -->
+    <!-- Start Table Page -->
+    <div class="table-page pt-4">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-brand d-flex align-items-center "  >
+            <img src="images/logo3.png" alt="Logo" width="90" height="90" class="d-inline-block align-text-top">
+            <div class="logo-text p-3 ">
+            <h3>جمعية السبيل الخيرية</h3>
+            <h6>المحبة هي السبيل</h6>
+          </div>
+          </div>
+          <div class="gap-2 d-md-flex justify-content-center">
+          <button type="button" id="filter">
+            <i class="fa-solid fa-filter circle"></i>
+            <h5 class="fs-6  fw-light ">فلترة</h5>
+          </button>
+          <button type="button" id="search">
+            <i class="fa-solid fa-magnifying-glass circle"></i>
+            <h5 class="fs-6  fw-light ">بحث</h5>
+          </button>
+          <button type="button" id="add">
+            <i class="fa-solid fa-circle-plus back-btn mb-2" ></i>
+            <h5 class="fs-6  fw-light ">إضافة</h5>
+          </button>
+        </div>
+          </div>
+      </nav>
+<div class="table-container">
+  <ul class="d-flex justify-content-center pt-5">
+    <li data-class="all" class="active " >الكل</li>
+    <li data-class="orphan">الأيتام</li>
+    <li data-class="witness">الشهداءوالجرحى</li>
+    <li data-class="disease">المرض</li>
+    <li data-class="poverty">الفقر</li>
+    </ul>
+      <div class="table-responsive">
+        <table class="table table-bordered " id="table">
+        <thead>
+          <tr>
+           <th>المعرف</th> 
+           <th>اسم المستفيد</th> 
+           <th>القسم</th> 
+           <th>رقم الهاتف</th> 
+           <th>العنوان</th> 
+           <th>تاريخ التسجيل</th> 
+           <th>تاريخ المساعدة</th> 
+           <th>رد الدراسات</th> 
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+         <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+         </tr>
+        </tbody>
+        </table>
+      
+    </div>
+</div>
+      <div class="border"></div>
+    </div>
+    
+    <!-- End Table Page -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/alssabil.js"></script>
+</body>
+</html>
